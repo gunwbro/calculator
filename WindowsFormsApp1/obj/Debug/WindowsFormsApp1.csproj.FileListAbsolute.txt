@@ -8,3 +8,13 @@ C:\Users\Gunwoo\Desktop\Programming\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 C:\Users\Gunwoo\Desktop\Programming\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Gunwoo\Desktop\Programming\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Gunwoo\Desktop\Programming\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Gunwoo\Desktop\Programming\calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

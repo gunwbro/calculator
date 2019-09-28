@@ -17,11 +17,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("I Love you Sohee♡");
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -30,6 +25,27 @@ namespace WindowsFormsApp1
         private void button2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Number1_Click(object sender, EventArgs e)
+        {
+            Button btnTmp = (Button)sender;
+            textBox1.Text += btnTmp.Text;
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("I Love you Sohee♡");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("I Love you Sohee♡");
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("I Love you Sohee♡");
         }
     }
 }
