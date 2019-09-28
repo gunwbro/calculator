@@ -34,22 +34,22 @@
             this.square = new System.Windows.Forms.Button();
             this.DEL = new System.Windows.Forms.Button();
             this.AC = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
+            this.multiplication = new System.Windows.Forms.Button();
+            this.Number3 = new System.Windows.Forms.Button();
+            this.Number2 = new System.Windows.Forms.Button();
+            this.Number1 = new System.Windows.Forms.Button();
+            this.Number4 = new System.Windows.Forms.Button();
+            this.division = new System.Windows.Forms.Button();
+            this.Number6 = new System.Windows.Forms.Button();
+            this.Number5 = new System.Windows.Forms.Button();
+            this.Number7 = new System.Windows.Forms.Button();
+            this.Number8 = new System.Windows.Forms.Button();
+            this.Number9 = new System.Windows.Forms.Button();
+            this.subtraction = new System.Windows.Forms.Button();
+            this.point = new System.Windows.Forms.Button();
+            this.zero = new System.Windows.Forms.Button();
+            this.square10 = new System.Windows.Forms.Button();
+            this.addition = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -85,123 +85,123 @@
             this.AC.Name = "AC";
             this.AC.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // multiplication
             // 
-            resources.ApplyResources(this.button8, "button8");
-            this.button8.Name = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.multiplication, "multiplication");
+            this.multiplication.Name = "multiplication";
+            this.multiplication.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // Number3
             // 
-            resources.ApplyResources(this.button9, "button9");
-            this.button9.Name = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number3, "Number3");
+            this.Number3.Name = "Number3";
+            this.Number3.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // Number2
             // 
-            resources.ApplyResources(this.button10, "button10");
-            this.button10.Name = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number2, "Number2");
+            this.Number2.Name = "Number2";
+            this.Number2.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // Number1
             // 
-            resources.ApplyResources(this.button11, "button11");
-            this.button11.Name = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number1, "Number1");
+            this.Number1.Name = "Number1";
+            this.Number1.UseVisualStyleBackColor = true;
             // 
-            // button12
+            // Number4
             // 
-            resources.ApplyResources(this.button12, "button12");
-            this.button12.Name = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number4, "Number4");
+            this.Number4.Name = "Number4";
+            this.Number4.UseVisualStyleBackColor = true;
             // 
-            // button14
+            // division
             // 
-            resources.ApplyResources(this.button14, "button14");
-            this.button14.Name = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.division, "division");
+            this.division.Name = "division";
+            this.division.UseVisualStyleBackColor = true;
             // 
-            // button15
+            // Number6
             // 
-            resources.ApplyResources(this.button15, "button15");
-            this.button15.Name = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number6, "Number6");
+            this.Number6.Name = "Number6";
+            this.Number6.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // Number5
             // 
-            resources.ApplyResources(this.button16, "button16");
-            this.button16.Name = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number5, "Number5");
+            this.Number5.Name = "Number5";
+            this.Number5.UseVisualStyleBackColor = true;
             // 
-            // button17
+            // Number7
             // 
-            resources.ApplyResources(this.button17, "button17");
-            this.button17.Name = "button17";
-            this.button17.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number7, "Number7");
+            this.Number7.Name = "Number7";
+            this.Number7.UseVisualStyleBackColor = true;
             // 
-            // button18
+            // Number8
             // 
-            resources.ApplyResources(this.button18, "button18");
-            this.button18.Name = "button18";
-            this.button18.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number8, "Number8");
+            this.Number8.Name = "Number8";
+            this.Number8.UseVisualStyleBackColor = true;
             // 
-            // button20
+            // Number9
             // 
-            resources.ApplyResources(this.button20, "button20");
-            this.button20.Name = "button20";
-            this.button20.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.Number9, "Number9");
+            this.Number9.Name = "Number9";
+            this.Number9.UseVisualStyleBackColor = true;
             // 
-            // button21
+            // subtraction
             // 
-            resources.ApplyResources(this.button21, "button21");
-            this.button21.Name = "button21";
-            this.button21.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.subtraction, "subtraction");
+            this.subtraction.Name = "subtraction";
+            this.subtraction.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // point
             // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.point, "point");
+            this.point.Name = "point";
+            this.point.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // zero
             // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.zero, "zero");
+            this.zero.Name = "zero";
+            this.zero.UseVisualStyleBackColor = true;
             // 
-            // button13
+            // square10
             // 
-            resources.ApplyResources(this.button13, "button13");
-            this.button13.Name = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.square10, "square10");
+            this.square10.Name = "square10";
+            this.square10.UseVisualStyleBackColor = true;
             // 
-            // button19
+            // addition
             // 
-            resources.ApplyResources(this.button19, "button19");
-            this.button19.Name = "button19";
-            this.button19.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.addition, "addition");
+            this.addition.Name = "addition";
+            this.addition.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Controls.Add(this.button19);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button21);
-            this.Controls.Add(this.button20);
-            this.Controls.Add(this.button18);
-            this.Controls.Add(this.button17);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
+            this.Controls.Add(this.addition);
+            this.Controls.Add(this.square10);
+            this.Controls.Add(this.zero);
+            this.Controls.Add(this.point);
+            this.Controls.Add(this.subtraction);
+            this.Controls.Add(this.Number9);
+            this.Controls.Add(this.Number8);
+            this.Controls.Add(this.Number7);
+            this.Controls.Add(this.Number5);
+            this.Controls.Add(this.Number6);
+            this.Controls.Add(this.division);
+            this.Controls.Add(this.Number4);
+            this.Controls.Add(this.Number1);
+            this.Controls.Add(this.Number2);
+            this.Controls.Add(this.Number3);
+            this.Controls.Add(this.multiplication);
             this.Controls.Add(this.AC);
             this.Controls.Add(this.DEL);
             this.Controls.Add(this.square);
@@ -220,22 +220,22 @@
         private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button DEL;
         private System.Windows.Forms.Button AC;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button multiplication;
+        private System.Windows.Forms.Button Number3;
+        private System.Windows.Forms.Button Number2;
+        private System.Windows.Forms.Button Number1;
+        private System.Windows.Forms.Button Number4;
+        private System.Windows.Forms.Button division;
+        private System.Windows.Forms.Button Number6;
+        private System.Windows.Forms.Button Number5;
+        private System.Windows.Forms.Button Number7;
+        private System.Windows.Forms.Button Number8;
+        private System.Windows.Forms.Button Number9;
+        private System.Windows.Forms.Button subtraction;
+        private System.Windows.Forms.Button point;
+        private System.Windows.Forms.Button zero;
+        private System.Windows.Forms.Button square10;
+        private System.Windows.Forms.Button addition;
     }
 }
 
