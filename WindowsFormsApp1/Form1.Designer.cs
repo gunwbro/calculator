@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.samgak = new System.Windows.Forms.Button();
-            this.square = new System.Windows.Forms.Button();
             this.DEL = new System.Windows.Forms.Button();
-            this.AC = new System.Windows.Forms.Button();
+            this.C = new System.Windows.Forms.Button();
             this.multiplication = new System.Windows.Forms.Button();
             this.Number3 = new System.Windows.Forms.Button();
             this.Number2 = new System.Windows.Forms.Button();
@@ -49,42 +47,31 @@
             this.zero = new System.Windows.Forms.Button();
             this.square10 = new System.Windows.Forms.Button();
             this.addition = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.textbox = new System.Windows.Forms.TextBox();
+            this.Result = new System.Windows.Forms.TextBox();
+            this.resul = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // samgak
-            // 
-            resources.ApplyResources(this.samgak, "samgak");
-            this.samgak.Name = "samgak";
-            this.samgak.UseVisualStyleBackColor = true;
-            this.samgak.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // square
-            // 
-            resources.ApplyResources(this.square, "square");
-            this.square.Name = "square";
-            this.square.UseVisualStyleBackColor = true;
             // 
             // DEL
             // 
             resources.ApplyResources(this.DEL, "DEL");
             this.DEL.Name = "DEL";
             this.DEL.UseVisualStyleBackColor = true;
+            this.DEL.Click += new System.EventHandler(this.DEL_Click);
             // 
-            // AC
+            // C
             // 
-            resources.ApplyResources(this.AC, "AC");
-            this.AC.Name = "AC";
-            this.AC.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.C, "C");
+            this.C.Name = "C";
+            this.C.UseVisualStyleBackColor = true;
+            this.C.Click += new System.EventHandler(this.C_Click);
             // 
             // multiplication
             // 
             resources.ApplyResources(this.multiplication, "multiplication");
             this.multiplication.Name = "multiplication";
             this.multiplication.UseVisualStyleBackColor = true;
+            this.multiplication.Click += new System.EventHandler(this.Number1_Click);
             // 
             // Number3
             // 
@@ -119,6 +106,7 @@
             resources.ApplyResources(this.division, "division");
             this.division.Name = "division";
             this.division.UseVisualStyleBackColor = true;
+            this.division.Click += new System.EventHandler(this.Number1_Click);
             // 
             // Number6
             // 
@@ -160,12 +148,14 @@
             resources.ApplyResources(this.subtraction, "subtraction");
             this.subtraction.Name = "subtraction";
             this.subtraction.UseVisualStyleBackColor = true;
+            this.subtraction.Click += new System.EventHandler(this.Number1_Click);
             // 
             // point
             // 
             resources.ApplyResources(this.point, "point");
             this.point.Name = "point";
             this.point.UseVisualStyleBackColor = true;
+            this.point.Click += new System.EventHandler(this.Number1_Click);
             // 
             // zero
             // 
@@ -185,46 +175,35 @@
             resources.ApplyResources(this.addition, "addition");
             this.addition.Name = "addition";
             this.addition.UseVisualStyleBackColor = true;
+            this.addition.Click += new System.EventHandler(this.Number1_Click);
             // 
-            // textBox1
+            // textbox
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            this.textbox.BackColor = System.Drawing.SystemColors.Info;
+            resources.ApplyResources(this.textbox, "textbox");
+            this.textbox.Name = "textbox";
             // 
-            // button2
+            // Result
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            this.Result.BackColor = System.Drawing.SystemColors.GrayText;
+            resources.ApplyResources(this.Result, "Result");
+            this.Result.Name = "Result";
             // 
-            // button1
+            // resul
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            resources.ApplyResources(this.resul, "resul");
+            this.resul.Name = "resul";
+            this.resul.UseVisualStyleBackColor = true;
+            this.resul.Click += new System.EventHandler(this.resul_Click);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.resul);
+            this.Controls.Add(this.Result);
+            this.Controls.Add(this.textbox);
             this.Controls.Add(this.addition);
             this.Controls.Add(this.square10);
             this.Controls.Add(this.zero);
@@ -241,10 +220,8 @@
             this.Controls.Add(this.Number2);
             this.Controls.Add(this.Number3);
             this.Controls.Add(this.multiplication);
-            this.Controls.Add(this.AC);
+            this.Controls.Add(this.C);
             this.Controls.Add(this.DEL);
-            this.Controls.Add(this.square);
-            this.Controls.Add(this.samgak);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -253,10 +230,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button samgak;
-        private System.Windows.Forms.Button square;
         private System.Windows.Forms.Button DEL;
-        private System.Windows.Forms.Button AC;
+        private System.Windows.Forms.Button C;
         private System.Windows.Forms.Button multiplication;
         private System.Windows.Forms.Button Number3;
         private System.Windows.Forms.Button Number2;
@@ -273,10 +248,9 @@
         private System.Windows.Forms.Button zero;
         private System.Windows.Forms.Button square10;
         private System.Windows.Forms.Button addition;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textbox;
+        private System.Windows.Forms.TextBox Result;
+        private System.Windows.Forms.Button resul;
     }
 }
 

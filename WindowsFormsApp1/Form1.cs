@@ -30,22 +30,30 @@ namespace WindowsFormsApp1
         private void Number1_Click(object sender, EventArgs e)
         {
             Button btnTmp = (Button)sender;
-            textBox1.Text += btnTmp.Text;
+            textbox.Text += btnTmp.Text;
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void C_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I Love you Sohee♡");
+            textbox.Text = "";
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void DEL_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I Love you Sohee♡");
+            
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void resul_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("I Love you Sohee♡");
+            string[] plusSplit = textbox.Text.Split('+');
+            double result = 0;
+
+            for(int i = 0; i < plusSplit.Length; i++)
+            {
+                Console.WriteLine(plusSplit[i]);
+                result += Convert.ToDouble(plusSplit[i]);
+            }
+            Result.Text = Convert.ToString(result);
         }
     }
 }

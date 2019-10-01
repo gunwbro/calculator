@@ -117,74 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="samgak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 237</value>
-  </data>
-  <data name="samgak.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 50</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="samgak.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="samgak.Text" xml:space="preserve">
-    <value>삼각함수</value>
-  </data>
-  <data name="&gt;&gt;samgak.Name" xml:space="preserve">
-    <value>samgak</value>
-  </data>
-  <data name="&gt;&gt;samgak.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;samgak.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;samgak.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="square.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="square.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 237</value>
-  </data>
-  <data name="square.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 50</value>
-  </data>
-  <data name="square.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="square.Text" xml:space="preserve">
-    <value>^(X)</value>
-  </data>
-  <data name="&gt;&gt;square.Name" xml:space="preserve">
-    <value>square</value>
-  </data>
-  <data name="&gt;&gt;square.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;square.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;square.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
   <data name="DEL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="DEL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 237</value>
+    <value>144, 181</value>
   </data>
   <data name="DEL.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="DEL.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="DEL.Text" xml:space="preserve">
-    <value>DEL</value>
+    <value>←</value>
   </data>
   <data name="&gt;&gt;DEL.Name" xml:space="preserve">
     <value>DEL</value>
@@ -196,40 +145,40 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DEL.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>20</value>
   </data>
-  <data name="AC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="C.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="AC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 237</value>
+  <data name="C.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 181</value>
   </data>
-  <data name="AC.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="C.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
   </data>
-  <data name="AC.TabIndex" type="System.Int32, mscorlib">
+  <data name="C.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="AC.Text" xml:space="preserve">
-    <value>AC</value>
+  <data name="C.Text" xml:space="preserve">
+    <value>C</value>
   </data>
-  <data name="&gt;&gt;AC.Name" xml:space="preserve">
-    <value>AC</value>
+  <data name="&gt;&gt;C.Name" xml:space="preserve">
+    <value>C</value>
   </data>
-  <data name="&gt;&gt;AC.Type" xml:space="preserve">
+  <data name="&gt;&gt;C.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;AC.Parent" xml:space="preserve">
+  <data name="&gt;&gt;C.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;AC.ZOrder" xml:space="preserve">
-    <value>20</value>
+  <data name="&gt;&gt;C.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="multiplication.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="multiplication.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 293</value>
+    <value>210, 237</value>
   </data>
   <data name="multiplication.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -250,13 +199,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;multiplication.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>18</value>
   </data>
   <data name="Number3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 293</value>
+    <value>143, 237</value>
   </data>
   <data name="Number3.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -277,13 +226,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number3.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>17</value>
   </data>
   <data name="Number2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 293</value>
+    <value>77, 237</value>
   </data>
   <data name="Number2.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -304,13 +253,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number2.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>16</value>
   </data>
   <data name="Number1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 293</value>
+    <value>12, 237</value>
   </data>
   <data name="Number1.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -331,13 +280,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number1.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>15</value>
   </data>
   <data name="Number4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 349</value>
+    <value>12, 293</value>
   </data>
   <data name="Number4.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -358,13 +307,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number4.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>14</value>
   </data>
   <data name="division.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="division.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 349</value>
+    <value>210, 293</value>
   </data>
   <data name="division.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -385,13 +334,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;division.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>13</value>
   </data>
   <data name="Number6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 349</value>
+    <value>143, 293</value>
   </data>
   <data name="Number6.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -412,13 +361,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number6.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="Number5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 349</value>
+    <value>78, 293</value>
   </data>
   <data name="Number5.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -439,13 +388,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number5.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="Number7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 405</value>
+    <value>12, 349</value>
   </data>
   <data name="Number7.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -466,13 +415,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number7.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="Number8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 405</value>
+    <value>78, 349</value>
   </data>
   <data name="Number8.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -493,13 +442,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number8.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="Number9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="Number9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 405</value>
+    <value>144, 349</value>
   </data>
   <data name="Number9.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -520,13 +469,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Number9.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="subtraction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="subtraction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 405</value>
+    <value>209, 349</value>
   </data>
   <data name="subtraction.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -547,13 +496,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;subtraction.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="point.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="point.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 461</value>
+    <value>12, 405</value>
   </data>
   <data name="point.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -574,13 +523,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;point.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="zero.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="zero.Location" type="System.Drawing.Point, System.Drawing">
-    <value>78, 461</value>
+    <value>78, 405</value>
   </data>
   <data name="zero.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -601,13 +550,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;zero.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="square10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="square10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 461</value>
+    <value>143, 405</value>
   </data>
   <data name="square10.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -628,13 +577,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;square10.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="addition.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="addition.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 461</value>
+    <value>209, 405</value>
   </data>
   <data name="addition.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 50</value>
@@ -655,129 +604,93 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;addition.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 15.75pt, style=Bold</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 48</value>
-  </data>
-  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="textBox1.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Vertical</value>
-  </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 183</value>
-  </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 12pt</value>
+  <data name="textbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 15.75pt, style=Bold</value>
   </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="textbox.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 30</value>
+  <data name="textbox.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 77</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>I</value>
+  <data name="textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="textbox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textbox.Name" xml:space="preserve">
+    <value>textbox</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textbox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textbox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 12pt</value>
+  <data name="Result.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 15.75pt, style=Bold</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="Result.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 95</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 12</value>
+  <data name="Result.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 30</value>
+  <data name="Result.Size" type="System.Drawing.Size, System.Drawing">
+    <value>257, 77</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
+  <data name="Result.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>LOVE</value>
+  <data name="Result.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;Result.Name" xml:space="preserve">
+    <value>Result</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;Result.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Result.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Result.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Consolas, 12pt</value>
-  </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resul.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 12</value>
+  <data name="resul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 181</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 30</value>
+  <data name="resul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 50</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+  <data name="resul.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>SOHEE</value>
+  <data name="resul.Text" xml:space="preserve">
+    <value>=</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;resul.Name" xml:space="preserve">
+    <value>resul</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;resul.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;resul.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;resul.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -787,10 +700,10 @@
     <value>7, 12</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>281, 526</value>
+    <value>281, 469</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Love Sohee</value>
+    <value>Calculator</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>
