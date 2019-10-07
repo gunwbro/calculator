@@ -47,9 +47,26 @@ namespace WindowsFormsApp1
         {
             string[] plusSplit = textbox.Text.Split('+');
             double result = 0;
-
-            for(int i = 0; i < plusSplit.Length; i++)
+            for (int i = 0; i < plusSplit.Length; i++)
             {
+
+                string[] minusSplit = plusSplit[i].Split('-');
+                double minusResult = 0;
+                for (int j = 0; j < minusSplit.Length; j++)
+                {
+
+                    if (j == 0)
+                    {
+                        if (i == 0 && plusSplit[0][0] == '-')
+                            minusResult += 0;
+                        else
+                            minusResult += Convert.ToDouble(minusSplit[j]);
+                    }
+                    else
+                        minusResult -= Convert.ToDouble(minusSplit[j]);
+                }
+
+                plusSplit[i] = Convert.ToString(minusResult);
                 Console.WriteLine(plusSplit[i]);
                 result += Convert.ToDouble(plusSplit[i]);
             }
