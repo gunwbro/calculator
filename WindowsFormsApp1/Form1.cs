@@ -42,9 +42,10 @@ namespace WindowsFormsApp1
         {
             
         }
-
+       
         private void resul_Click(object sender, EventArgs e)
         {
+            
             string[] plusSplit = textbox.Text.Split('+');
             double result = 0;
             for (int i = 0; i < plusSplit.Length; i++)
@@ -54,6 +55,29 @@ namespace WindowsFormsApp1
                 double minusResult = 0;
                 for (int j = 0; j < minusSplit.Length; j++)
                 {
+                    string[] multiSplit = minusSplit[j].Split('*');
+                    double multiSplitResult = 0;
+                    for (int k = 0; k < multiSplit.Length; k++)
+                    {
+                        string[] divSplit = multiSplit[k].Split('/');
+                        double divSplitResult = 0;
+
+                        for (int l = 0; l < divSplit.Length; l++)
+                        {
+                            if (l == 0)
+                                divSplitResult += Convert.ToDouble(divSplit[l]);
+                            else
+                                divSplitResult /= Convert.ToDouble(divSplit[l]);
+                        }
+
+                        multiSplit[k] = Convert.ToString(divSplitResult);
+                        if (k == 0)
+                            multiSplitResult += Convert.ToDouble(multiSplit[k]);
+                        else
+                            multiSplitResult *= Convert.ToDouble(multiSplit[k]);
+                    }
+
+                    minusSplit[j] = Convert.ToString(multiSplitResult);
 
                     if (j == 0)
                     {
